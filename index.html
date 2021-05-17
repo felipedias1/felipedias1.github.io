@@ -1,104 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Felipe Ferreira Dias</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
-        
-        <style>
-            body {
-                background-color: #2E2C2F;
-                color: #F3E8EE;
-            }
-            .header{
-                background-color: #729b79;
-                text-decoration: underline;
-                text-align: center;
-            }
-            .button{
-                margin: 25px 0;
-                border: 2px solid #fff;
-                color: #F3E8EE;
-                padding: 10px 42px;
-                border-radius: 10px;
-                text-align: center;
-                background-color: #729b79;
-                text-decoration: none;
-            }
-            .title-hero{
-                font-family: 'Noto Sans JP' sans-serif;
-                font-size: 40px;
-                text-align: center;
-            }
-            .sub-title{
-                font-family: 'Noto Sans JP' sans-serif;
-                font-size: 25px;
-                text-align: center;
-            }
-            .imagem{
-                text-align: center;
-                border-radius: 10%;
-            }
-            .center {
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-                list-style-type: none;             
-            }
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Felipe Ferreira Dias</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+</head>
 
-        </style>
-    </head>
-    <body>
-        <!--MENU-->
-        <p class="center">
+<body>
+  <!--MENU-->
+    <div class="menu">
         <a class="button" href="#pic1">Foto</a>
         <a class="button" href="#aboutme">Sobre mim</a>
         <a class="button" href="#skills">Minhas habilidades</a>
-        </p>
-        <div style="background-color:#F3E8EE;color:#2E2C2F ;" >
-        
-        <!--NOME-->
-        <h1 class="title-hero">Felipe Ferreira Dias</h1>
-
-        <!--FOTO-->
-        <div class="imagem">
-        <img id="pic1" class="center imagem" src="perfil1.jpeg" width="300px" alt="Foto de pefil Felipe Dias"> <br>
-        </div>
-        
-           
-        <p id="aboutme" class="center">
-            Estudante de <strong>Desenvolvimento Web Full-Stack</strong> | <strong>Trybe</strong> <br>Bacharel em <strong>Administração</strong> | <strong>UFF</strong> 
-        </p>
-    
-       
     </div>
-       <!--SOBRE MIM-->
-        
-        <h2 class="sub-title" >Sobre mim</h2>
-        <p class="center">
-        <strong>Brasileiro</strong>, de <strong>Barra Mansa/RJ</strong>, sou apaixonado por inovação e tecnologia,<br>admirador de marcas que buscam facilitar e melhorar a experiência do cliente.
-        </p><br>  
+      
+  
+    <!--NOME-->
+    <h1 class="title-hero">Felipe Ferreira Dias</h1>
+     
+    <div class="about">
+      <div class="imagem">
+        <img id="pic1" class="imagem" src="perfil1.jpeg" width="300px" alt="Foto de pefil Felipe Dias"> <br>
+      </div>
 
-        <!--LINKS EXTERNOS-->
-        <p class="center">
+      <div>      
+        <h2 class="sub-title" >Sobre mim</h2>
+      
+        <p id="aboutme">
+          Estudante de <strong>Desenvolvimento Web Full-Stack</strong> | <strong>Trybe</strong> <br>Bacharel em <strong>Administração</strong> | <strong>UFF</strong> 
+        </p>   
+    
+        <p>
+           <strong>Brasileiro</strong>, de <strong>Barra Mansa/RJ</strong>, sou apaixonado por inovação e tecnologia,admirador de marcas que buscam facilitar e melhorar a experiência do cliente.
+        </p><br>  
+      </div>
+    </div>
+    
+  <div>
+    <!--LINKS EXTERNOS-->
+    <div>
+      <div>
         <a class="button" href="https://www.linkedin.com/in/felipefdias1/" target="_blank">Linkedin</a>
         <a class="button" href="https://github.com/felipedias1" target="_blank">GitHub</a>
-        </p>
-
-       
-        
-        <!--MINHAS HABILIDADES-->
-    <div style="background-color: #475B63"><br>
-        <h2 class="sub-title">Minhas habilidades</h2>
-        
-        <ul id="skills" class="center" >
-            <li><em><strong>Proatividade</strong></em></li><br>
-            <li><em>Comprometimento</strong></em></li><br>
-            <li><em>Dedicação</strong></em></li><br>
-            <li><em>Adaptabilidade</li></em><br>
-            <li><em>Resolução de Problemas</em></li><br>
-            <li><em>Saber ouvir</em></li><br>
-        </ul>
+      </div>  
     </div>
-    </body>
+
+    <!--MINHAS HABILIDADES-->
+    <div style="background-color: #475B63"><br>
+      <h2 class="sub-title">Minhas habilidades</h2>
+        
+      <ul id="skills" class="center" >
+        <li><em><strong>Proatividade</strong></em></li><br>
+        <li><em>Comprometimento</strong></em></li><br>
+        <li><em>Dedicação</strong></em></li><br>
+        <li><em>Adaptabilidade</li></em><br>
+        <li><em>Resolução de Problemas</em></li><br>
+        <li><em>Saber ouvir</em></li><br>
+      </ul>
+    </div>
+  </div>
+</body>
 </html>
